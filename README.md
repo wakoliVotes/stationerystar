@@ -1,2 +1,1 @@
-# stationerystar
-Stationer Star
+# Stationery Star
