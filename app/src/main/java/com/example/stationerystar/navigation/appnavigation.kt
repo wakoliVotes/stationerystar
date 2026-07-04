@@ -13,8 +13,18 @@ fun AppNavigation () {
         composable("splash_screen") {
 //            SplashScreen(navController)
         }
-        composable("main_screen") {
+        composable("mainscreen") {
 //            MainScreen()
+        }
+        composable("loginscreen") {
+        }
+        composable("register_screen") {
+        }
+        composable("homescreen") {
+        }
+
+        composable ("settings") {
+
         }
     }
 }
