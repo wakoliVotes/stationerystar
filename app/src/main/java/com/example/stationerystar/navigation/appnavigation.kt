@@ -8,9 +8,9 @@ import androidx.navigation.compose.rememberNavController
 @Composable
 fun AppNavigation () {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "splash_screen")
+    NavHost(navController = navController, startDestination = "splashscreen")
     {
-        composable("splash_screen") {
+        composable("splashscreen") {
 //            SplashScreen(navController)
         }
         composable("mainscreen") {
